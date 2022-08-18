@@ -16,6 +16,7 @@ async function main() {
   //  esse tempo. Para isso, vamos usar o async/await.
 
   console.log("Conectando com o banco de dados...");
+  
   /*
   const client = await MongoClient.connect(url);
   const db = client.db(dbName);
